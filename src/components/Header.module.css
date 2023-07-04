@@ -1,0 +1,29 @@
+.containerHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    gap: .75rem;
+    background-color: var(--gray-700);
+    
+}
+
+.logoHeader{
+    height: 2.25rem;
+}
+
+.titleHeader span{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+.titleHeader span:nth-child(1) {
+    color: var(--blue);
+}
+
+.titleHeader span:nth-child(2){
+    color: var(--purple-dark);
+}

@@ -1,0 +1,112 @@
+body{
+    background-color: var(--gray-600);
+}
+
+.App{
+   
+    max-width: 1440px;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.contentContainer{
+    width: 736px;
+    margin: 0 auto;
+    padding-bottom: 20rem;
+   
+   
+}
+
+.addTask{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    background-color: transparent;
+    gap: .5rem;
+
+}
+
+.addTask > input{
+    padding: 1rem;
+    width: 638px;
+    height: 54px;
+    border-radius: .5rem;
+    border: solid 1px var(--gray-700);
+    box-shadow: 2px 2px 2px, var(--gray-700);
+    background-color: var(--gray-400);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gray-300);
+}
+
+.addTask > input:focus{
+    color: var(--gray-100);
+    outline: none;
+    border: 1px solid var(--purple-dark);
+}
+
+
+.addTask > button{
+    padding: 1rem;
+    width: 90px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--blue);
+    border: solid 1px var(--gray-700);
+    box-shadow: 2px 2px 2px, var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: var(--gray-100);
+    font-weight: 700;
+    font-size: 14px;
+    
+    
+}
+
+.tasksStatus {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.taksCount{
+    display: contents;
+    justify-content: space-between;
+    
+}
+
+.taksCount > span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    gap: .5rem;
+}
+
+.taksCount > span:nth-child(1){
+    color: var(--blue);
+}
+
+.taksCount > span:nth-child(2){
+    color: var(--purple);
+}
+
+.taksCount > span > div{
+    color: var(--gray-200);
+    padding: 2px 8px;
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    height: 19px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
